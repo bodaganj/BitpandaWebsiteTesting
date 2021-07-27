@@ -4,6 +4,7 @@
 name: Java Website Testing CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
