@@ -74,6 +74,6 @@ under ```${project.basedir}/target/site/index.html```
 
 ## Link to CI on GitHub
 
-https://github.com/bodaganj/BitpandaWebsiteTesting/actions/workflows/maven.yml
+https://github.com/bodaganj/BitpandaWebsiteTesting/actions/workflows/mavenFinal.yml
 
 
