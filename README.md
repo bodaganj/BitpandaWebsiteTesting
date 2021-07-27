@@ -59,6 +59,7 @@ is used as a WebDriver wrapper.
       to ```src/test/java/com/bitpanda/launcher/SerenityStoriesLauncher.java```
       and appropriate story should be marked with the following tag ```Meta: @single```
       E.g.:
+      
       ![img_1.png](png/img_1.png)
 
       ![img.png](png/img.png)
@@ -73,6 +74,6 @@ under ```${project.basedir}/target/site/index.html```
 
 ## Link to CI on GitHub
 
-https://github.com/bodaganj/BitpandaRestApiTesting/actions/workflows/maven.yml
+https://github.com/bodaganj/BitpandaWebsiteTesting/actions/workflows/maven.yml
 
 
