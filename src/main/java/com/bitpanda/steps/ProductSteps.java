@@ -17,6 +17,8 @@ public class ProductSteps extends ScenarioSteps {
 
    @Step
    public void addProductToShoppingCart() {
-      productPage.clickAddToCartButton();
+      productPage.getAddToCartButton().waitUntilClickable();
+      productPage.getAddToCartButton().click();
+      productPage.getAddedToCartPanel().waitUntilVisible();
    }
 }

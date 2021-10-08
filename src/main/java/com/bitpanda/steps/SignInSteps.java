@@ -15,11 +15,13 @@ public class SignInSteps extends ScenarioSteps {
 
    @Step
    public void signInWithCredentials(final String email, final String password) {
-      signInPage.signInWithCredentials(email, password);
+      signInPage.getEmailAddressField().type(email);
+      signInPage.getPasswordField().type(password);
+      signInPage.getSignInButton().click();
    }
 
    @Step
    public boolean isAuthAlertVisible() {
-      return signInPage.isAuthAlertVisible();
+      return signInPage.getAuthAlert().isVisible();
    }
 }

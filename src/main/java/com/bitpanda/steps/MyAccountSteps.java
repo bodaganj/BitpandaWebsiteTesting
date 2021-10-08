@@ -10,6 +10,6 @@ public class MyAccountSteps extends ScenarioSteps {
 
    @Step
    public boolean isMyAccountPageVisible() {
-      return myAccountPage.isMyAccountPageVisible();
+      return myAccountPage.getMyAccount().isVisible();
    }
 }

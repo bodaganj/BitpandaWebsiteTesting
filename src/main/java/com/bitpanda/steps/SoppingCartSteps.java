@@ -13,7 +13,7 @@ public class SoppingCartSteps extends ScenarioSteps {
 
    @Step
    public boolean isShoppingCartEmpty() {
-      return shoppingCartPage.isEmptyShoppingCartElementPresent();
+      return shoppingCartPage.getEmptyShoppingCart().isPresent();
    }
 
    @Step
